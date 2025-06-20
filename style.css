@@ -215,4 +215,16 @@ button[type="submit"]:hover {
   main {
     padding: 15px;
   }
+  /* Restore hover background for social icons */
+.social-icon {
+  background-color: transparent;
+  border-radius: 50%;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: #ffd000; /* Gold background on hover */
+}
+
 }
